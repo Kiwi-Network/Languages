@@ -1,0 +1,3 @@
+name: Languages
+version: 1.0-SNAPSHOT
+main: ee.winni.plugins.languages.Languages

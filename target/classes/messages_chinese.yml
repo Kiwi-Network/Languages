@@ -1,0 +1,4 @@
+noinput: "§6使用 /lang <语言> 切换全服语言显示\n当前: %lang%; 可用: %langs%"
+donothave: "§c语言 %lang% 不存在"
+success: "§a设置语言成功, 当前: %lang%"
+failed: "§c设置语言失败, 请联系管理员"

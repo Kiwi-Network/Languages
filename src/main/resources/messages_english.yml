@@ -1,0 +1,4 @@
+noinput: "§6Use /lang <Language> to change your display\nCurrent: %lang%; Supported: %langs%"
+donothave: "§cUnsupported Language: %lang%"
+success: "§aSuccessfully changed your language to: %lang%"
+failed: "§cFailed to change your language, please contact with administrators."
