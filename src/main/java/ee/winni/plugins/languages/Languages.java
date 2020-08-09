@@ -85,7 +85,9 @@ public final class Languages extends Plugin implements LanguagesInterface{
     public String getString(String lang, String key) {
 
         if(messages.containsKey("messages_"+lang+".yml")){
-            return messages.get("messages_"+lang+".yml").getString(key);
+
+            String s = messages.get("messages_"+lang+".yml").getString(key);
+            return s.equals("") ? (lang.equals("chinese") ? "" : getString("chinese",key)) : s;
         }
         return getString("chinese",key);
     }
