@@ -28,9 +28,9 @@ public class LangCommand extends Command {
         }
 
         if(Languages.instance.setLang(sender.getName(),lang))
-            sender.sendMessage(Languages.instance.getPlayerString(sender.getName(),"success").replace("%lang%",args[0]));
+            sender.sendMessage(Languages.instance.getPlayerString(sender.getName(),"success").replace("%lang%",lang));
         else
-            sender.sendMessage(Languages.instance.getPlayerString(sender.getName(),"failed").replace("%lang%",args[0]));
+            sender.sendMessage(Languages.instance.getPlayerString(sender.getName(),"failed").replace("%lang%",lang));
 
     }
 
